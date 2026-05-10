@@ -5,7 +5,7 @@ namespace WebApplication1.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class RoomController : Controller
+public class ReservationsController : Controller
 {
     [HttpGet]
     public IActionResult Get([FromQuery] DateTime? date, [FromQuery] string? status, [FromQuery] int? roomId)
